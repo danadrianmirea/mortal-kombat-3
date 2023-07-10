@@ -24,6 +24,27 @@ import twentythree from "../assets/avatar/23.png";
 import twentyfour from "../assets/avatar/24.png";
 import rain from "../assets/fightingStance/rain.gif";
 import reptile from "../assets/fightingStance/reptile.gif";
+import stryker from "../assets/fightingStance/stryker.gif";
+import jax from "../assets/fightingStance/jax.gif";
+import nightwolf from "../assets/fightingStance/nightwolf.gif";
+import jade from "../assets/fightingStance/jade.gif";
+import noobsaibot from "../assets/fightingStance/noobsaibot.gif";
+import sonya from "../assets/fightingStance/sonya.gif";
+import kano from "../assets/fightingStance/kano.gif";
+import mileena from "../assets/fightingStance/mileena.gif";
+import subzero1 from "../assets/fightingStance/subzero1.gif";
+import subzero from "../assets/fightingStance/subzero.gif";
+import kunglao from "../assets/fightingStance/kunglao.gif";
+import sektor from "../assets/fightingStance/sektor.gif";
+import kitana from "../assets/fightingStance/kitana.gif";
+import ermac from "../assets/fightingStance/ermac.gif";
+import scorpion from "../assets/fightingStance/scorpion.gif";
+import cyrax from "../assets/fightingStance/cyrax.gif";
+import kabal from "../assets/fightingStance/kabal.gif";
+import sindel from "../assets/fightingStance/sindel.gif";
+import smoke from "../assets/fightingStance/smoke.gif";
+import liukang from "../assets/fightingStance/liukang.gif";
+import shangtsung from "../assets/fightingStance/shangtsung.gif";
 
 export type Player = {
   id: number;
@@ -51,84 +72,84 @@ const players: Player[] = [
   {
     id: 3,
     name: "STRYKER",
-    img: "src/assets/fightingStance/stryker.gif",
+    img: stryker,
     hp: 100,
     avatar: three,
   },
   {
     id: 4,
     name: "JAX",
-    img: "src/assets/fightingStance/jax.gif",
+    img: jax,
     hp: 100,
     avatar: four,
   },
   {
     id: 5,
     name: "NIGHT WOLF",
-    img: "src/assets/fightingStance/nightwolf.gif",
+    img: nightwolf,
     hp: 100,
     avatar: five,
   },
   {
     id: 6,
     name: "JADE",
-    img: "src/assets/fightingStance/jade.gif",
+    img: jade,
     hp: 100,
     avatar: six,
   },
   {
     id: 7,
     name: "NOOB SAIBOT",
-    img: "src/assets/fightingStance/noobsaibot.gif",
+    img: noobsaibot,
     hp: 100,
     avatar: seven,
   },
   {
     id: 8,
     name: "SONYA",
-    img: "src/assets/fightingStance/sonya.gif",
+    img: sonya,
     hp: 100,
     avatar: eight,
   },
   {
     id: 9,
     name: "KANO",
-    img: "src/assets/fightingStance/kano.gif",
+    img: kano,
     hp: 100,
     avatar: nine,
   },
   {
     id: 10,
     name: "MILEENA",
-    img: "src/assets/fightingStance/mileena.gif",
+    img: mileena,
     hp: 100,
     avatar: ten,
   },
   {
     id: 12,
     name: "SUB-ZERO",
-    img: "src/assets/fightingStance/subzero1.gif",
+    img: subzero1,
     hp: 100,
     avatar: twelve,
   },
   {
     id: 13,
     name: "SUB-ZERO",
-    img: "src/assets/fightingStance/subzero.gif",
+    img: subzero,
     hp: 100,
     avatar: thirteen,
   },
   {
     id: 14,
     name: "KUNG LAO",
-    img: "src/assets/fightingStance/kunglao.gif",
+    img: kunglao,
     hp: 100,
     avatar: fourteen,
   },
   {
     id: 15,
     name: "SEKTOR",
-    img: "src/assets/fightingStance/sektor.gif",
+    img: sektor,
     hp: 100,
     avatar: fifteen,
   },
@@ -136,13 +157,13 @@ const players: Player[] = [
     id: 16,
     name: "KITANA",
     hp: 100,
-    img: "src/assets/fightingStance/kitana.gif",
+    img: kitana,
     avatar: sixteen,
   },
   {
     id: 17,
     name: "ERMAC",
-    img: "src/assets/fightingStance/ermac.gif",
+    img: ermac,
     hp: 100,
     avatar: seventeen,
   },
@@ -150,48 +171,48 @@ const players: Player[] = [
     id: 18,
     name: "SCORPION",
     hp: 100,
-    img: "src/assets/fightingStance/scorpion.gif",
+    img: scorpion,
     avatar: eighteen,
   },
   {
     id: 19,
     name: "CYRAX",
-    img: "src/assets/fightingStance/cyrax.gif",
+    img: cyrax,
     hp: 100,
     avatar: nineteen,
   },
   {
     id: 20,
     name: "KABAL",
-    img: "src/assets/fightingStance/kabal.gif",
+    img: kabal,
     hp: 100,
     avatar: twenty,
   },
   {
     id: 21,
     name: "SINDEL",
-    img: "src/assets/fightingStance/sindel.gif",
+    img: sindel,
     hp: 100,
     avatar: twentyone,
   },
   {
     id: 22,
     name: "SMOKE",
-    img: "src/assets/fightingStance/smoke.gif",
+    img: smoke,
     hp: 100,
     avatar: twentytwo,
   },
   {
     id: 23,
     name: "LIU KANG",
-    img: "src/assets/fightingStance/liukang.gif",
+    img: liukang,
     hp: 100,
     avatar: twentythree,
   },
   {
     id: 24,
     name: "SHANG TSUNG",
-    img: "src/assets/fightingStance/shangtsung.gif",
+    img: shangtsung,
     hp: 100,
     avatar: twentyfour,
   },
