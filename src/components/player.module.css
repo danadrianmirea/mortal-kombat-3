@@ -1,0 +1,15 @@
+.player {
+  width: 4.5rem;
+  cursor: pointer;
+}
+
+.player > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.player > img:hover {
+  outline: none;
+  outline: 5px solid #21aa21;
+}
