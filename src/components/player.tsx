@@ -1,19 +1,20 @@
+import { Player } from "../data/players";
 import styles from "./player.module.css";
-
-type Player = {
-  id: number;
-  name: string;
-  avatar: string;
-};
 
 type PlayerProps = {
   player: Player;
+  isSelected: boolean;
+  onSelectPlayer: (player: Player) => void;
 };
 
-function Player({ player }: PlayerProps) {
+function Player({ player, isSelected, onSelectPlayer }: PlayerProps) {
+  const borderStyles = {
+    outline: isSelected ? "5px solid #21aa21" : "none",
+  };
+
   return (
-    <div className={styles.player}>
-      <img src={player.avatar} alt={player.name} />
+    <div className={styles.player} onClick={() => onSelectPlayer(player)}>
+      <img src={player.avatar} alt={player.name} style={borderStyles} />
     </div>
   );
 }
