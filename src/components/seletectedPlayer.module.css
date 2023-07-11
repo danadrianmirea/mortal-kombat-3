@@ -2,7 +2,7 @@
 .seletedPlayerOne,
 .seletedPlayerTwo {
   position: absolute;
-  left: 0;
+  left: -30%;
   bottom: 0;
   width: 6rem;
 }
@@ -16,7 +16,7 @@
 
 .seletedPlayerTwo {
   left: auto;
-  right: 0;
+  right: -30%;
   transform: scaleX(-1);
 }
 
@@ -26,14 +26,6 @@
   .seletedPlayerTwo {
     width: 8rem;
   }
-
-  .seletedPlayerOne {
-    left: 1rem;
-  }
-
-  .seletedPlayerTwo {
-    right: 1rem;
-  }
 }
 
 /* mobile L - */
@@ -42,37 +34,11 @@
   .seletedPlayerTwo {
     width: 9rem;
   }
-
-  .seletedPlayerOne {
-    left: 4rem;
-  }
-
-  .seletedPlayerTwo {
-    right: 4rem;
-  }
 }
 
 @media (min-width: 1020px) {
   .seletedPlayerOne,
   .seletedPlayerTwo {
     width: 15rem;
-  }
-
-  .seletedPlayerOne {
-    left: 0;
-  }
-
-  .seletedPlayerTwo {
-    right: 0;
-  }
-}
-
-@media (min-width: 1068px) {
-  .seletedPlayerOne {
-    left: 5%;
-  }
-
-  .seletedPlayerTwo {
-    right: 5%;
   }
 }

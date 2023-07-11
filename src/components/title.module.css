@@ -1,5 +1,5 @@
 .title {
-  margin-block: 0.3rem;
+  margin-bottom: 0.3rem;
   font-size: 1.5rem;
   color: #efefef;
   text-shadow: 4px 2px 1px #000;
@@ -8,7 +8,7 @@
 
 @media screen and (min-height: 800px) and (min-width: 880px) {
   .title {
-    margin-block: 1rem;
+    margin-bottom: 1rem;
     font-size: 3rem;
   }
 }

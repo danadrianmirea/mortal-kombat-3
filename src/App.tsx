@@ -28,25 +28,25 @@ function App() {
     setIsMuted(true);
   };
 
+  if (!isPlaying) {
+    return (
+      <StartButton
+        onStart={() => {
+          const audioStart = new Audio(start);
+          audioStart.play().catch((err) => console.log(err));
+          audio.autoplay = true;
+          audio.play().catch((err) => console.log(err));
+          setIsPlaying(true);
+        }}
+      />
+    );
+  }
+
   return (
     <main>
-      {isPlaying ? (
-        <>
-          <Title />
-          <Players />
-          <Sound isMuted={isMuted} onClickSound={handleSound} />
-        </>
-      ) : (
-        <StartButton
-          onStart={() => {
-            const audioStart = new Audio(start);
-            audioStart.play().catch((err) => console.log(err));
-            audio.autoplay = true;
-            audio.play().catch((err) => console.log(err));
-            setIsPlaying(true);
-          }}
-        />
-      )}
+      <Title />
+      <Players />
+      <Sound isMuted={isMuted} onClickSound={handleSound} />
     </main>
   );
 }
