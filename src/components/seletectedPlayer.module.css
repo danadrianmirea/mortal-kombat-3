@@ -1,9 +1,10 @@
+/* mobile S - iPhone SE */
 .seletedPlayerOne,
 .seletedPlayerTwo {
   position: absolute;
-  left: 2rem;
+  left: 0;
   bottom: 0;
-  width: 8rem;
+  width: 6rem;
 }
 
 .seletedPlayerOne > img,
@@ -15,13 +16,63 @@
 
 .seletedPlayerTwo {
   left: auto;
-  right: 2rem;
+  right: 0;
   transform: scaleX(-1);
 }
 
-@media screen and (min-height: 550px) and (min-width: 480px) {
+/* @media screen and (min-height: 550px) and (min-width: 480px) {
   .seletedPlayerOne,
   .seletedPlayerTwo {
     width: 16rem;
+  }
+} */
+
+/* Low resolution Tablets and iPads */
+/* @media (min-height: 390px) and (min-width: 820px)  {
+  .seletedPlayerOne,
+  .seletedPlayerTwo {
+    width: 9rem;
+  }
+
+  .seletedPlayerOne {
+    left: 7rem;
+  }
+
+  .seletedPlayerTwo {
+    right: 7rem;
+  }
+} */
+
+
+
+/* mobile M - samsung S8 */
+@media (min-height: 350px) and (orientation: landscape) {
+  .seletedPlayerOne,
+  .seletedPlayerTwo {
+    width: 8rem;
+  }
+
+  .seletedPlayerOne {
+    left: 1rem;
+  }
+
+  .seletedPlayerTwo {
+    right: 1rem;
+  }
+}
+
+/* mobile L - */
+@media (min-height: 410px) and (orientation: landscape) {
+  .seletedPlayerOne,
+  .seletedPlayerTwo {
+    width: 9rem;
+  }
+
+  .seletedPlayerOne {
+    left: 4rem;
+  }
+
+  .seletedPlayerTwo {
+    right: 4rem;
   }
 }
