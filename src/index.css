@@ -25,7 +25,10 @@ body {
   line-height: 1.5;
   color: #fff;
   background-color: #424542;
-  background-image: url('/src/assets/background.jpeg');
+  background-image: url("/src/assets/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 main {
