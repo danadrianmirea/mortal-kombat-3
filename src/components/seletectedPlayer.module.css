@@ -18,3 +18,10 @@
   right: 2rem;
   transform: scaleX(-1);
 }
+
+@media screen and (min-height: 550px) and (min-width: 480px) {
+  .seletedPlayerOne,
+  .seletedPlayerTwo {
+    width: 16rem;
+  }
+}

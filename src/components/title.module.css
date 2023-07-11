@@ -5,3 +5,10 @@
   text-shadow: 4px 2px 1px #000;
   text-align: center;
 }
+
+@media screen and (min-height: 800px) and (min-width: 880px) {
+  .title {
+    margin-block: 1rem;
+    font-size: 3rem;
+  }
+}
