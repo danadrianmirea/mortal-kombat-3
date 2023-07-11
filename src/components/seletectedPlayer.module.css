@@ -1,7 +1,7 @@
 .seletedPlayerOne,
 .seletedPlayerTwo {
   position: absolute;
-  left: 0;
+  left: 2rem;
   bottom: 0;
   width: 8rem;
 }
@@ -15,6 +15,6 @@
 
 .seletedPlayerTwo {
   left: auto;
-  right: 0;
+  right: 2rem;
   transform: scaleX(-1);
 }
