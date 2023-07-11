@@ -26,4 +26,11 @@
   }
 }
 
+@media (min-width: 1020px) {
+  .players {
+    grid-template-rows: repeat(3, 11rem);
+    width: 45rem;
+  }
+}
+
 

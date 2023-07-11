@@ -20,31 +20,6 @@
   transform: scaleX(-1);
 }
 
-/* @media screen and (min-height: 550px) and (min-width: 480px) {
-  .seletedPlayerOne,
-  .seletedPlayerTwo {
-    width: 16rem;
-  }
-} */
-
-/* Low resolution Tablets and iPads */
-/* @media (min-height: 390px) and (min-width: 820px)  {
-  .seletedPlayerOne,
-  .seletedPlayerTwo {
-    width: 9rem;
-  }
-
-  .seletedPlayerOne {
-    left: 7rem;
-  }
-
-  .seletedPlayerTwo {
-    right: 7rem;
-  }
-} */
-
-
-
 /* mobile M - samsung S8 */
 @media (min-height: 350px) and (orientation: landscape) {
   .seletedPlayerOne,
@@ -74,5 +49,30 @@
 
   .seletedPlayerTwo {
     right: 4rem;
+  }
+}
+
+@media (min-width: 1020px) {
+  .seletedPlayerOne,
+  .seletedPlayerTwo {
+    width: 15rem;
+  }
+
+  .seletedPlayerOne {
+    left: 0;
+  }
+
+  .seletedPlayerTwo {
+    right: 0;
+  }
+}
+
+@media (min-width: 1068px) {
+  .seletedPlayerOne {
+    left: 5%;
+  }
+
+  .seletedPlayerTwo {
+    right: 5%;
   }
 }
