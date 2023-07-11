@@ -23,8 +23,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100svh;
+  width: 100svw;
+  background-color: #424542;
+  background-image: url("/src/assets/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
@@ -32,10 +36,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
-  background-color: #424542;
-  background-image: url("/src/assets/background.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 main {
@@ -47,5 +47,10 @@ main {
 @media only screen and (orientation: portrait) {
   body {
     transform: rotate(90deg);
+  }
+
+  #root {
+    height: 100svw;
+    width: 100svh;
   }
 }
