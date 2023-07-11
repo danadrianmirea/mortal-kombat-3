@@ -1,27 +1,11 @@
-import { useState } from "react";
-import players, { Player } from "../data/players";
+import players from "../data/players";
 import PlayerComponent from "./player";
 import styles from "./players.module.css";
 import SelectedPlayer from "./selectedPlayer";
+import { usePlayers } from "../hooks/usePlayers";
 
 function Players() {
-  const [playerOne, setPlayerOne] = useState<Player | null>(null);
-  const [playerTwo, setPlayerTwo] = useState<Player | null>(null);
-  const [confirmPlayerOne, setConfirmPlayerOne] = useState<boolean>(false);
-
-  const handleSelectPlayer = (player: Player) => {
-    if (confirmPlayerOne) {
-      setPlayerTwo(player);
-      return;
-    }
-
-    if (playerOne && player.id === playerOne.id) {
-      setConfirmPlayerOne(true);
-      return;
-    }
-
-    setPlayerOne(player);
-  };
+  const { playerOne, playerTwo, handleSelectPlayer } = usePlayers(players);
 
   return (
     <section className={styles.players}>
